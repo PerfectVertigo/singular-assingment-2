@@ -112,7 +112,7 @@ This will execute the E2E suite against **Chromium**.
 
 | Scenario            | Test Steps                                                    | Requirement ID                                 |
 | ------------------- | ------------------------------------------------------------- | ---------------------------------------------- |
-| Checkout Happy Path | Login → Add products → Open cart → Enter info → Finish → Back | REQ-Login, REQ-Cart, REQ-Checkout, REQ-NavBack |
+| Checkout Happy Path | Login → Add products → Open cart → Start checkout → Enter info → Finish → Back | REQ-Login, REQ-Cart, REQ-Checkout, REQ-NavBack |
 
 ---
 
