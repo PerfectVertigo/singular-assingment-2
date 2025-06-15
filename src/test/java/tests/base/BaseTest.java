@@ -3,6 +3,7 @@ package tests.base;
 import com.microsoft.playwright.*;
 import org.testng.annotations.*;
 import steps.AllSteps;
+import utils.AllureUtils;
 
 import static data.Constants.BASE_URL;
 
@@ -32,6 +33,7 @@ public abstract class BaseTest {
 
     @AfterMethod
     public void tearDown() {
+        AllureUtils.attachScreenshot(page, "Final page state");
         context.close();
     }
 
